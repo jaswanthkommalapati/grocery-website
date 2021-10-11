@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="two one.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<style type="text/css"src="one two.css"/>
+h1{
+  text-align: center;
+  background: green;
+  padding: 70px ;
+margin-left: auto;
+margin-right: auto;
+}
+h4{
+  text-align: center;
+  padding-top: 40px;
+}
+h5{
+  text-align: center;
+  padding-top: 10px;
+}
+.headding{
+  color: white;
+
+}
+.how{
+  text-align: center;
+  padding-top: 15px;
+}
+/*about us*/
+
+.section{
+	width: 100%;
+	min-height: 80vh;
+	background-color:
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 10px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: aqua;
+	color:#fff;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+/*how us css */
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+html {
+  font-family: "Montserrat";
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: aqua;
+  }
+}
+/*delevry*/
+.bot{
+  font-family: cursive;
+  color: white;
+  padding: 200px;
+background-image: url(https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+  }
+  </style>
+  </head>
+
+<body>
+  <h1 class="headding">About Our Grocery Store </h1>
+  <div class="container-fluid">
+    <div class="section">
+  		<div class="container">
+  			<div class="content-section">
+  				<div class="title">
+  				</div>
+  				<div class="content">
+  					<h3>Our Successfull Story</h3><br>
+  					<p>Grocery Items means supply items, non-food items, foodstuffs and drinks including, 
+                      without limitation, any or all of the following: (i) dairy products (including without
+                       limitation milk, yogurt, ice cream, cheese and/or any other items commonly found
+                       in a grocery store and/or supermarket dairy section), (ii) produce ( ..</p>
+  					<div class="button">
+  						<a href="">Read More</a>
+  					</div>
+  				</div>
+  			</div>
+        <br>
+  			<div class="image-section">
+  				<img src="bag.jpg">
+  			</div>
+  		</div>
+  	</div>
+  </div>
+    <br>
+                               <!-- why us-->
+  <h1 class="headding">Why Choose Us</h1>
+  <br><br>
+    <div class="card lg-6" style="padding:50px;" >
+  <div class="row">
+    <div class="col-md-4">
+      <img src="bag 2.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <ul>
+<li>  <h5 class="card-title"></h5>
+        <p class="card-text">Fresh orgnic vegetables available 
+        </p><br></li>
+<li><p class="card-text"> Door step Delivery
+            </p></li>
+            <br>
+  <li>  <p class="card-text">Flat discount on groceries </p>
+</ul></li>
+      </div>
+    </div>
+  </div>
+  <br><br>
+</div>
+                           <!-- how its work-->
+
+
+<h1 class="headding">HOW IT'S WORK'</h1>
+<br>
+<div class="container">
+  <div class="timeline">
+    <ul>
+      <li>
+        <div class="timeline-content">
+          <h1>STEP 1</h1>
+          <p>We tie up with organic farmers </p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h1>STEP 2</h1>
+          <p>We deliver products throgh our Agency.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-content">
+          <h1>STEP 3</h1>
+          <p>Our Agenda is to deliver fresh organic groceries to door step delivery.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<h1 class="bot">We are expanded to nearly 100 plus major Cities</h1>
+<h3> our groceries have an wide range of popularity across cities in the world  </h3>
+
+
+</body>
+
+</html>
